@@ -1,8 +1,19 @@
 cost = float(input('Product Cost: '))
-amount_paid = float(input('Amount Paid'))
-penny = 0.01
-nickel = 0.05
-dime = 0.10
-quarter = 0.25
-loonie = 1.00
-toonie = 2.00
+penny = float(0.01)
+nickel = float(0.05)
+dime = float(0.10)
+quarter = float(0.25)
+loonie = float(1.00)
+toonie = float(2.00)
+number_of_toonies = cost // toonie
+cost = tonnie * number_of_toonies
+number_of_loonies = cost // lonnie
+cost = loonie * nummber_of_lonnies
+number_of_quarters = cost // quarter
+cost = quarters * number_of_quarters
+number_of_dimes = cost // dime
+cost = dime * number_of_dimes
+number_of_nickels = cost // dimes 
+cost = nickel * number_of_nickels
+number_of_pennies = cost
+print(cost)
