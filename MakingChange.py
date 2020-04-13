@@ -1,19 +1,25 @@
 cost = float(input('Product Cost: '))
-penny = float(0.01)
-nickel = float(0.05)
-dime = float(0.10)
-quarter = float(0.25)
-loonie = float(1.00)
-toonie = float(2.00)
-number_of_toonies = cost // toonie
-cost = tonnie * number_of_toonies
-number_of_loonies = cost // lonnie
-cost = loonie * nummber_of_lonnies
-number_of_quarters = cost // quarter
-cost = quarters * number_of_quarters
-number_of_dimes = cost // dime
-cost = dime * number_of_dimes
-number_of_nickels = cost // dimes 
-cost = nickel * number_of_nickels
-number_of_pennies = cost
-print(cost)
+penny = 1
+nickel = 5
+dime = 10
+quarter = 25
+loonie = 100
+toonie = 200
+# Cost --> 500
+num_of_toonies = int(cost // toonie)
+cost %= toonie
+num_of_loonies = int(cost // loonie)
+cost %= loonie
+num_of_quarters = int(cost // quarter)
+cost %= quarter
+num_of_dimes = int(cost // dime)
+cost %= dime
+num_of_nickels = int(cost // nickel)
+cost %= nickel
+num_of_pennies = int(cost)
+print(num_of_toonies)
+print(num_of_loonies)
+print(num_of_quarters)
+print(num_of_dimes)
+print(num_of_nickels)
+print(num_of_pennies)
