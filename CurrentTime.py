@@ -1,3 +1,3 @@
-#Import library
-import datetime
-now = datetime.datetime.now()
+# Import library
+import time
+print(time.asctime(time.localtime()))
