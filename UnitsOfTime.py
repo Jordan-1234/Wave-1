@@ -5,4 +5,4 @@ Minutes = int(input("what is the number of minutes ")) * 60
 Seconds = int(input("What is the number of seconds "))
 # Add the variables to get the total number of seconds
 total_Time = Days + Hours + Minutes + Seconds  
-print("The total number of seconds is: " + str(total_Time))
+print("The total number of seconds represented by the duration is: " + str(total_Time))
